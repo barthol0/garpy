@@ -6,6 +6,7 @@ import datetime
 
 relay_pin = 23
 
+GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(relay_pin, GPIO.OUT)
 GPIO.output(relay_pin, 1)

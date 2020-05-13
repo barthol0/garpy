@@ -21,7 +21,7 @@ schedule.every().day.at("06:00").do(lights_on)
 schedule.every().day.at("22:00").do(lights_off)
 
 try:
-    if datetime.datetime.now().hour > 6:
+    if datetime.datetime.now().hour >= 6:
         lights_on()
 
     while True:

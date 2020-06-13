@@ -5,7 +5,6 @@ verify_ssl = true
 
 [dev-packages]
 bpython = "*"
-black = "*"
 flake8 = "*"
 
 [packages]
